@@ -1,0 +1,39 @@
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 400px;">
+	<form>
+	<input type="hidden" id="id">
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="name" id="name" class="form-control" placeholder="Nombre" type="text">
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="lastname" id="lastname" class="form-control" placeholder="Apellido" type="text">
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="documentno" id="documentno" class="form-control" placeholder="Documento" type="number">
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+		</div>
+		<select class="form-control">
+			<option selected="" id="doctype"> Tipo de Documento</option>
+			<option>DNI</option>
+			<option>Pasaporte</option>
+			<option>Cedula</option>
+		</select>
+	</div> <!-- form-group end.// -->
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block" onclick="reloadForm();">Guardar</button>
+    </div> <!-- form-group// -->                                                            
+</form>
+</article>
+</div> <!-- card.// -->
